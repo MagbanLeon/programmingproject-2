@@ -16,7 +16,7 @@ The code works by first detecting capabilities to read the text file. If able to
 3. Once the operation is identified, the function will run that specfic case and that mathematicla operation associated with it (ex. identifying SUB or SUBS will perform subtraction between the two operands).
 
 4. After the result is calculated, it is returned to a third variable responsible for holding the result.  Then a function for displaying is called that displays the *operation*, *initial two operands*, and the *result* (in the case of the NOT operation, only the first operand and result are displayed).
-```CMD op1 op2: result```
+```CMD op1 op2: result``` or ```NOT: op1: result```
 
 5. Immediately following this initial display, a line of code checks the 4th letter of the operation name to determine if an **S** is present. If so, then a function is called to manage the N and Z flags.
 
